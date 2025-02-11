@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{9F251F26-0B5C-4D04-B146-6263EB649882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessObject\DataAccessLayer.csproj", "{1B8208EF-1E9D-4155-9060-7FB983E2D6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObject", "BusinessObject\BusinessObject.csproj", "{19D78333-B2A4-4203-9FE9-1D7C052742FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessService", "BusinessService\BusinessService.csproj", "{B229D859-FA72-4815-BAD0-9ADDE94CCAA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{9F251F26-0B5C-4D04-B146-6263EB649882}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F251F26-0B5C-4D04-B146-6263EB649882}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F251F26-0B5C-4D04-B146-6263EB649882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8208EF-1E9D-4155-9060-7FB983E2D6E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8208EF-1E9D-4155-9060-7FB983E2D6E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8208EF-1E9D-4155-9060-7FB983E2D6E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8208EF-1E9D-4155-9060-7FB983E2D6E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19D78333-B2A4-4203-9FE9-1D7C052742FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D78333-B2A4-4203-9FE9-1D7C052742FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D78333-B2A4-4203-9FE9-1D7C052742FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D78333-B2A4-4203-9FE9-1D7C052742FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B229D859-FA72-4815-BAD0-9ADDE94CCAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B229D859-FA72-4815-BAD0-9ADDE94CCAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B229D859-FA72-4815-BAD0-9ADDE94CCAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B229D859-FA72-4815-BAD0-9ADDE94CCAA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
